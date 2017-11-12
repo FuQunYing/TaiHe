@@ -1,0 +1,118 @@
+
+/*main - banner*/
+
+.banner{
+	height:500px;
+	text-align: center;
+	background: #fff;
+}
+.banner a{
+	display:block;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.banner .swiper-pagination{
+	bottom:30px;
+	text-align: center;
+	width:1020px;
+	left:50%;
+	margin-left:-510px;
+}
+.banner .swiper-button{
+	position:absolute;
+	width:1020px;
+	top:50%;
+	left:50%;
+	margin-left:-510px;
+	display:none;
+}
+.banner:hover .swiper-button{
+	display: block;
+}
+.s-btns .swiper-button-next, .s-btns .swiper-button-prev{
+	width:76px;
+	height:76px;
+	margin-top:-43px;
+	background: url(../img/bg.png) no-repeat;
+}
+.s-btns .swiper-button-next{
+	background-position: -462px 0;
+	right:0;
+}
+.banner .swiper-button-next{right:-38px}
+.s-btns .swiper-button-prev{
+	background-position: -376px 0;
+	left:0;
+}
+.banner .swiper-button-prev{left:-38px}
+.s-btns .swiper-button-prev:hover{
+	background-position: -204px 0;
+}
+.s-btns .swiper-button-next:hover{
+	background-position: -290px 0;
+}
+/*太合服务*/
+@keyframes rotateImg{
+	0%{transform: rotate(0deg)}100%{transform:rotate(360deg)}
+}
+.spanHover{
+	animation: rotateImg .6s linear 1;
+}
+.service-box{
+	padding:50px 0;
+	background: #fff;
+	text-align: center;
+}
+.service-box a{
+	display: inline-block;
+	font-size: 18px;
+	color:#666;
+	margin:0 46px;
+}
+.service-box span{
+	display :inline-block;
+	width:82px;
+	height:82px;
+	background: url(../img/bg.png) no-repeat;
+}
+.service-box p{margin-top: 20px;}
+.service-box .s-icon1{
+	background-position: -4px -100px;
+}
+.service-box .s-icon2{
+	background-position: -90px -100px;
+}
+.service-box .s-icon3{
+	background-position: -176px -100px;
+}
+.service-box .s-icon4{
+	background-position: -262px -100px;
+}
+.service-box .s-icon5{
+	background-position: -348px -100px;
+}
+.service-box .s-icon6{
+	background-position: -434px -100px;
+}
+/*新闻列表*/
+
+/*cluster*/
+.p-cluster{padding:60px 0;background: #fff;}
+.p-cluster-content{width:1020px; margin:0 auto}
+.group-title .p-icon{background-position: -59px -516px;}
+.p-cluster-content li{
+	display: inline-block;
+	width:109px;
+	margin-top: 30px;
+}
+.p-cluster-content li a{
+	display: inline-block;
+	text-align: center;
+}
+.p-cluster-content li a img{
+	width:60px;
+	height:60px;
+	margin-bottom:20px;
+}

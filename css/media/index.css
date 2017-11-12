@@ -1,0 +1,82 @@
+
+/*main*/
+.banner{
+  height:180px;
+  text-align: center;
+  background-color: #fff;
+}
+.banner a{
+  display:block;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.banner .swiper-button{display: none}
+/*service box*/
+@keyframes rotateImg{
+  0%{transform: rotate(0deg)}100%{transform:rotate(360deg)}
+}
+.spanHover{
+  animation: rotateImg .6s linear 1;
+}
+.service-box{
+  padding:20px 0;
+  text-align: center;
+  background: #fff;
+}
+.service-box a{
+  display: inline-block;
+  color:#666;
+  font-size:12px;
+  margin:10px 30px;
+}
+.service-box span{
+  display :inline-block;
+  width:42px;
+  height:42px;
+  background: url(../../img/bg.png) no-repeat;
+  background-size: 300px;
+}
+.service-box p{margin-top: 10px;}
+.service-box .s-icon1{
+  background-position: -2px -50px;
+}
+.service-box .s-icon2{
+  background-position: -45px -50px;
+}
+.service-box .s-icon3{
+  background-position: -88px -50px;
+}
+.service-box .s-icon4{
+  background-position: -131px -50px;
+}
+.service-box .s-icon5{
+  background-position: -174px -50px;
+}
+.service-box .s-icon6{
+  background-position: -217px -50px;
+}
+
+/*产品集群*/
+.p-cluster{
+  background-color: #fff;
+  padding:15px 0;
+}
+.p-cluster .group-title{margin-top:0}
+.p-cluster-content li{
+  display: inline-block;
+  width: 30%;
+  margin-top: 10px;
+}
+.p-cluster-content li a{
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}
+.p-cluster-content ul{text-align: center}
+.p-cluster-content li a img{
+  width: 30px;
+  margin-bottom: 5px;
+}

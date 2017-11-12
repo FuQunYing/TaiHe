@@ -1,0 +1,125 @@
+@media screen and (min-width: 769px){
+  .group-title{
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .details-banner{
+    margin: 10px 0 40px 0;
+  }
+  .details-banner a{
+    display: block;
+    width: 500px;
+  }
+  .details-banner a img{
+    height: 300px;
+  }
+
+  .details-box{
+    background-color: #fff;
+    padding: 40px 50px;
+    margin: 0 auto 0 auto;
+    width: 920px;
+    line-height:30px;
+    font-size:15px;
+  }
+  .details-box h1{
+    text-align: center;
+    font-weight: normal;
+    font-size: 24px;
+    color:#333;
+  }
+  .news-info{
+    text-align: center;
+    margin: 20px 0;
+    color: #666;
+  }
+  .share{
+    display: inline-block;
+    *display: inline;
+    *zoom:1;
+    margin-left: 30px;
+  }
+  .bdsharebuttonbox {
+    display: inline-block;
+    *display: inline;
+    *zoom:1;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+  .bdsharebuttonbox a {
+    float: left;
+    padding-left: 24px;
+    height: 24px;
+    margin: 0 7px 6px 0;
+    background: url("../img/share-icon.png") no-repeat;
+  }
+  .bdsharebuttonbox .bds_qzone {
+    background-position: -171px 0;
+  }
+  .bdsharebuttonbox .bds_tsina {
+    background-position:-1px 0;
+  }
+  .bdsharebuttonbox .bds_douban {
+    background-position:-137px 0;
+  }
+  .bdsharebuttonbox .bds_tqq {
+    background-position:-205px 0;
+  }
+  .bdsharebuttonbox .bds_sqq {
+    background-position:-35px 0;
+  }
+  .bdsharebuttonbox .bds_weixin {
+    background-position:-69px 0;
+  }
+  .n-content img{
+    max-width: 100%;
+    margin:5px 0;
+  }
+}
+@media screen and (max-width: 769px){
+  .group-title{
+    margin-top: 10px;
+    font-size:16px;
+    padding-left: 15px;
+    border-left: 3px #ed1c24 solid;
+  }
+  .details-banner{
+    display: inline-block;
+    *display: inline;
+    *zoom:1;
+    width: 100%;
+    margin: 0px 0 10px 0;
+  }
+  .details-banner a{
+    display: block;
+    margin-bottom: 10px;
+  }
+
+
+  .details-box{
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px auto;
+  }
+  .details-box h1{
+    font-weight: normal;
+    font-size: 18px;
+    color: #333;
+  }
+  .news-info{
+    margin: 10px 0;
+    color: #666;
+  }
+  .share{
+    display: none;
+  }
+  .n-content {
+    line-height:24px;
+  }
+  .n-content img,
+  .details-box iframe,
+  .details-box video{
+    max-width: 100%;
+    margin:5px 0;
+  }
+}
