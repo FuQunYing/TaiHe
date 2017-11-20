@@ -157,7 +157,6 @@ li{
     padding: 0 20px;
   }
   #header ul li ol a:hover{text-decoration: none;color:#fff;}
-  #header ul li.showList ol{display:block }
   .leftNav li a{
     margin-top:-37px;
   }
@@ -1092,3 +1091,4 @@ li{
   }
 
 }
+  #header ul li.showList ol{display:block }
